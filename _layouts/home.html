@@ -1,0 +1,30 @@
+---
+title: home
+layout: default
+---
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <img class="rounded-circle" src="./assets/img/ben-weintraub.jpg" alt="Ben Weintraub" style="max-width: 100%; height: auto;">
+        </div>
+        <div class="col-md-9">
+            {{ site.data.home.aboutme | markdownify }}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            {{ site.data.home.news | markdownify }}
+        </div>
+        <div class="col-md-4">
+            <h1>Contact</h1>
+            <ul class="list-group list-group-light">
+                <a class="disabled list-group-item list-group-item-action px-3" href="#">weintraub.b AT northeastern DOT edu</a>
+                <a class="list-group-item list-group-item-action px-3" href="https://github.com/iowaguy">GitHub</a>
+                <a class="list-group-item list-group-item-action px-3" href="https://www.linkedin.com/in/benweintraub34">LinkedIn</a>
+                <a class="list-group-item list-group-item-action px-3" href="https://scholar.google.com/citations?user=jw9lM88AAAAJ&hl=en&oi=sra">Google Scholar</a>
+            </ul>
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,19 @@
+direct_pages:
+  - title: Home
+    url: index.html
+
+dropdown_pages:
+  - title: Research
+    subpages:
+      - title: Publications
+        url: publications.html
+      - title: Service
+        url: service.html
+      - title: CV
+        url: files/BenWeintraubCV.pdf
+  - title: Teaching
+    subpages:
+      - title: CS3650 - Computer Systems
+        url: cs3650-summer25.html
+      - title: Teaching Assistantships
+        url: assist.html

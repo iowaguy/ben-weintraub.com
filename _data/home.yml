@@ -1,0 +1,17 @@
+aboutme: |
+  # About Me
+  I am a final year PhD candidate in the <a href="https://cyber.northeastern.edu/">Cybersecurity and Privacy Institute</a> at Northeastern University where I work with <a href="https://cnitarot.github.io/">Cristina Nita-Rotaru</a>. I'm interested in the security of internet protocols. My research has mostly focused on validating the correctness of security-aware protocols from DNS to software-defined networks. My thesis work focuses on modeling and measuring scams and attacks on blockchains and Layer-2 protocols.
+
+  **I am on the job market, please feel free to reach out with any research-related opportunities!**
+
+news: |
+  # News
+  - <span class="badge text-bg-info">November 8, 2024</span> Journalists from the university interviewed me and <a href="https://news.northeastern.edu/2024/11/08/ethereum-rollups-research/">wrote</a> about one of my my recent projects.
+  - <span class="badge text-bg-info">September 26, 2024</span> The college <a href="https://www.khoury.northeastern.edu/three-papers-by-khoury-phd-student-accepted-at-prestigious-security-conference/">wrote a nice piece</a> about my three CCS papers, what a whirlwind!
+  - <span class="badge text-bg-info">July 5, 2024</span> We had a <em>third</em> paper accepted to CCS! An incredible run and once again I am indebted to my first rate co-authors.
+  - <span class="badge text-bg-info">April 4, 2024</span> We had two papers accepted to ACM CCS \'24! I am first author on both, but neither would have been possible without my amazing collaborators.
+  - <span class="badge text-bg-info">January 30, 2024</span> I'm returning as an intern to MIT-Lincoln Labs in the <a href="https://www.ll.mit.edu/r-d/cyber-security-and-information-sciences/secure-resilient-systems-and-technology">Secure Resilient Systems and Technology Group</a>. I had a great experience last summer, looking forward to going back!
+  - <span class="badge text-bg-info">June 9, 2023</span> Our paper MSNetViews: Geographically Distributed Management of Enterprise Network Security Policy won runner-up for best paper at ACM SACMAT \'23! A great effort by all my coauthors!
+  - <span class="badge text-bg-info">January 10, 2023</span> My <a href="https://public-exposure.inform.social/post/theft-as-a-service/">guest post</a> on blog Public Exposure was published today! It's about defending against frontrunning in Ethereum. Thanks to the Lari and the Public Exposure team for their fine editorial work!
+  - <span class="badge text-bg-info">December 9, 2022</span> I've accepted an offer to intern at MIT-Lincoln Labs in the <a href="https://www.ll.mit.edu/r-d/cyber-security-and-information-sciences/secure-resilient-systems-and-technology">Secure Resilient Systems and Technology Group</a>. Looking forward to the experience!
+  - <span class="badge text-bg-info">August 17, 2022</span> Our paper <i>A Flash(bot) in the Pan: Measuring Maximal Extractable Value in Private Pools</i> has been accepted at ACM IMC \'22!

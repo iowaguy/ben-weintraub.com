@@ -1,0 +1,30 @@
+---
+title: publications
+layout: default
+---
+
+<div class="container">
+    <h1>Conferences</h1>
+    {% for pub_year in site.data.pubs.pub_years %}
+    <h2>{{ pub_year.year }}</h2>
+    <ul class="mynews">
+        {% for pub in pub_year.publications %}
+        <li>{{ pub.citation }}</li>
+        {% if pub.pdf %}
+        <a class="badge text-bg-primary" style="text-decoration: none" href="{{ pub.pdf }}">PDF</a>
+        {% endif %}
+        {% if pub.code %}
+        <a class="badge text-bg-warning" style="text-decoration: none" href="{{ pub.code }}">Code</a>
+        {% endif %}
+        {% endfor %}
+    </ul>
+    {% endfor %}
+
+    <h1>Patents</h1>
+    <ul class="mynews">
+        {% for pat in site.data.pubs.patents %}
+        <li>{{ pat.citation }}</li>
+        <a class="badge text-bg-primary" style="text-decoration: none" href="{{ pat.pdf }}">PDF</a>
+        {% endfor %}
+    </ul>
+</div>
