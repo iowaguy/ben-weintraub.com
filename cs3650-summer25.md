@@ -9,7 +9,7 @@ layout: default
 | **Instructor**   | Ben Weintraub             |
 | **Room**         | Dodge Hall 119            |
 | **Time**         | MTWTh 3:20-5pm            |
-| **Office Hours** | XXX                       |
+| **Office Hours** | Th 1-3pm (location: TBD)  |
 | **Class Forum**  | Piazza (link coming soon) |
 {: .table.table-hover.table-striped }
 
