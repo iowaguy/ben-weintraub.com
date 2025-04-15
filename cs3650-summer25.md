@@ -71,16 +71,27 @@ The class forum is on Piazza. Why Piazza? Because they have a nice web interface
 </div>
 
 
-<h2>Reading Materials</h2>
+## Reading Materials
 For this course, we will be using [Operating Systems: Three Easy Pieces][OSTEP] by Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau.
 This is a popular text for courses like this one, and it is available for free online.
 Of course, if you want to support the authors, you can also buy a copy.
 
+## Assignments
 <div class="col-md-5" markdown="1">
 
 | **Assignment**   | **Due Date** | **Piazza Tag** |
 |------------------|--------------|----------------|
 | **Assignment 1** |              | `#assignment1` |
+{: .table.table-hover.table-striped }
+
+</div>
+
+## Labs
+<div class="col-md-5" markdown="1">
+
+| **Lab**   | **Due Date** | **Piazza Tag** |
+|-----------|--------------|----------------|
+| **Lab 1** |              | `#lab1`        |
 {: .table.table-hover.table-striped }
 
 </div>
