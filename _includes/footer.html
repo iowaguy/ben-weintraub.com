@@ -3,6 +3,7 @@
     <center>
         Ben Weintraub &copy {{ site.time | date: "%Y" }}
         </br>
-        Site Last Updated {{ site.time | date: "%B %d, %Y at %H:%M:%S" }}
+        Site Last Updated {{ site.time | timezone: "America/New_York" | date: "%B %d, %Y at %H:%M:%S %Z"  }}
+
     </center>
 </div>
