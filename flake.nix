@@ -15,9 +15,9 @@
         pkgs = nixpkgs.legacyPackages.${system};
       in
       {
-        devShells.default = pkgs.mkShell { packages = [
-          pkgs.bashInteractive
-          pkgs.jekyll
+        devShells.default = pkgs.mkShell { packages = with pkgs; [
+          bashInteractive
+          jekyll
         ]; };
       }
     );
