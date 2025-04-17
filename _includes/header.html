@@ -12,12 +12,24 @@
                     <a class="nav-link {% if dirpage.url == page.url %}active{% endif %}" aria-current="page" href="{{ dirpage.url }}">{{ dirpage.title }}</a>
                 </li>
                 {% endfor %}
+
                 {% for droppage in site.data.nav.dropdown_pages %}
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">{{ droppage.title }}</a>
                     <ul class="dropdown-menu">
                         {% for subpage in droppage.subpages %}
-                        <li><a class="dropdown-item {% if subpage.url == page.url %}active{% endif %}" href="{{ subpage.url }}">{{ subpage.title }}</a></li>
+                            {% if subpage.current == true %}
+                                <li><a class="dropdown-item {% if subpage.url == page.url %}active{% endif %}" href="{{ subpage.url }}">{{ subpage.title }}</a></li>
+                            {% endif %}
+                        {% endfor %}
+
+                        {% if droppage.class and droppage.class == true %}
+                            <li><hr class="dropdown-divider"></li>
+                        {% endif %}
+                        {% for subpage in droppage.subpages %}
+                            {% if subpage.current == nil or subpage.current == false %}
+                                <li><a class="dropdown-item {% if subpage.url == page.url %}active{% endif %}" href="{{ subpage.url }}">{{ subpage.title }}</a></li>
+                            {% endif %}
                         {% endfor %}
                     </ul>
                 </li>

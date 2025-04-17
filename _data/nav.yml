@@ -4,6 +4,7 @@ direct_pages:
 
 dropdown_pages:
   - title: Research
+    class: false
     subpages:
       - title: Publications
         url: /publications.html
@@ -12,8 +13,11 @@ dropdown_pages:
       - title: CV
         url: /files/BenWeintraubCV.pdf
   - title: Teaching
+    class: true
     subpages:
       - title: CS3650 - Computer Systems
         url: /cs3650-summer25.html
+        current: true
       - title: Teaching Assistantships
         url: /assist.html
+        current: false
